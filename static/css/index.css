@@ -133,5 +133,10 @@ body {
   font-size: smaller;
 }
 
-
+.carousel-image {
+  width: 100%;           /* 宽度占满容器 */
+  height: auto;          /* 保持图片比例 */
+  max-height: 1000px;     /* 限制最大高度为300px，确保所有图片高度一致 */
+  object-fit: cover;     /* 图片填充容器，不变形 */
+}
 
